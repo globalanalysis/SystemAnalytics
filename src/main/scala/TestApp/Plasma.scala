@@ -1,0 +1,5 @@
+package TestApp
+
+trait Plasma {
+
+}
