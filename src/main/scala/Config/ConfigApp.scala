@@ -1,5 +1,18 @@
 package Config
 
-class ConfigApp {
+import Pattern.Singleton
+
+object ConfigApp {
+
+  def getSingletonClass: Singleton ={
+
+    var t = new Singleton
+
+    t
+
+
+  }
+
+
 
 }
