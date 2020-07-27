@@ -1,12 +1,14 @@
 
-/** == Паттерн Builder==
+/** == Шаблон Builder==
   * @author Dynamic
   * @return name, category, description
   * @constructor отсуствует
   **/
 
 
-package Pattern
+package Pattern.PattarnClass
+
+import Pattern.Pattern
 
 class Builder extends Pattern {
 

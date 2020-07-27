@@ -1,4 +1,16 @@
+
+package Config
+
+import java.io.File
+import java.util.Properties
+
+import Pattern.{PattarnClass, _}
+import _root_.Pattern.PattarnClass.{AbstractFactory, Builder}
+
+
 /**
+  * =bject Config=
+  *
   * @author Dynamic
   * @version 1.0
   * @constructor не предусмотрен
@@ -6,19 +18,20 @@
   * Конфигурирует и внедряет зависимости всех классов
   */
 
-
-package Config
-
-import java.io.File
-import java.util.Properties
-
-import Pattern._
-
 object ConfigApp {
 
-  def getSingletonClass: Singleton ={
 
-    var t = new Singleton
+  /** =Singleton=
+    * @author Dynamic
+    * @version 1.0
+    * @constructor не предусмотрен
+    * @return SingletonClass
+    *
+    */
+
+  def getSingletonClass: PattarnClass.Singleton ={
+
+    var t = new PattarnClass.Singleton
 
     t
 
@@ -43,6 +56,7 @@ object ConfigApp {
 
   /**
     * @return Property
+    * @todo Возвращает объект для чтения данных с конфигурационного файла DataConfig
     */
 
   def getPropertiesClass: Properties  = {

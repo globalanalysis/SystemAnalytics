@@ -1,13 +1,17 @@
 
-/** == Паттерн Singleton==
+
+
+package Pattern.PattarnClass
+
+import Pattern.Pattern
+
+/** ==Шаблон Singleton==
+ *
   * @author Dynamic
   * @return name, category, description
+ *
   * @constructor отсуствует
   **/
-
-package Pattern
-
-
 
 class Singleton extends Pattern {
 

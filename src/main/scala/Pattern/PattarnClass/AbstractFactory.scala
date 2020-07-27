@@ -1,9 +1,12 @@
-package Pattern
+package Pattern.PattarnClass
 
-/** == Паттерн AbstractFactory==
+import Pattern.Pattern
+
+/** == Шаблон AbstractFactory==
+ *
   * @author Dynamic
   * @return name, category, description
-  * @constructor отсуствует
+  *
   **/
 
 

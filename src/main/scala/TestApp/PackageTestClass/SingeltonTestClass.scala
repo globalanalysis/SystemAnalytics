@@ -5,9 +5,9 @@ import TestApp.Plasma
 
 class SingeltonTestClass extends Plasma {
 
-  override def runTest: Unit = {
+  override def runTest(): Unit = {
 
-  var g = ConfigApp.getSingletonClass
+    val g = ConfigApp.getSingletonClass
 
     println("Тестирование класса Сингелтон и вывод данных класса на консоль: " + g.name)
     println("Тестирование класса Сингелтон и вывод данных класса на консоль: " + g.category)
