@@ -1,5 +1,8 @@
 package Pattern
 
+
+  // Трейт определяющий содержание всех шаблонов: имя, категория, описание
+
 trait Pattern {
 
   var name: String
