@@ -1,3 +1,11 @@
+
+/** == Паттерн Pattern==
+  * @author Dynamic
+  * @example Реализуется в одном из классов шаблонов, например Singelton
+  * @constructor отсуствует
+  **/
+
+
 package Pattern
 
 

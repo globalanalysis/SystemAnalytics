@@ -1,3 +1,12 @@
+/**
+  * @author Dynamic
+  * @version 1.0
+  * @constructor не предусмотрен
+  * Является фабрикой для всех объектов в приложении
+  * Конфигурирует и внедряет зависимости всех классов
+  */
+
+
 package Config
 
 import java.io.File
@@ -16,7 +25,10 @@ object ConfigApp {
 
   }
 
-    // AbstractFactory
+
+  /**
+    * @return AbstractFactory
+    */
 
   def getAbstractFactoryClass: AbstractFactory ={
 
@@ -28,7 +40,10 @@ object ConfigApp {
   }
 
 
-  // Property
+
+  /**
+    * @return Property
+    */
 
   def getPropertiesClass: Properties  = {
 
@@ -42,6 +57,35 @@ object ConfigApp {
     properties
 
   }
+
+
+
+
+
+
+  /**
+    * @return Builder
+    */
+
+  def getBuilderClass: Builder ={
+
+    var t = new Builder
+
+    t
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
 
 
 

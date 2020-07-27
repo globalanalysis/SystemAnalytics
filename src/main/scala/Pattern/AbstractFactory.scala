@@ -1,5 +1,14 @@
 package Pattern
 
+/** == Паттерн AbstractFactory==
+  * @author Dynamic
+  * @return name, category, description
+  * @constructor отсуствует
+  **/
+
+
+
+
 class AbstractFactory extends Pattern {
 
   override  var name: String = "Abstract factory"

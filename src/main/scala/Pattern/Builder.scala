@@ -1,3 +1,11 @@
+
+/** == Паттерн Builder==
+  * @author Dynamic
+  * @return name, category, description
+  * @constructor отсуствует
+  **/
+
+
 package Pattern
 
 class Builder extends Pattern {
