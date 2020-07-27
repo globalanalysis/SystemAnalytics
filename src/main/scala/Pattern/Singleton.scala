@@ -1,6 +1,17 @@
+
+/** == Паттерн Singleton==
+  * @author Dynamic
+  * @return name, category, description
+  * @constructor отсуствует
+  **/
+
 package Pattern
 
- class Singleton extends Pattern {
+
+
+class Singleton extends Pattern {
+
+
 
    override  var name: String = "Singleton"
 

@@ -1,5 +1,8 @@
 package Config
 
+import java.io.File
+import java.util.Properties
+
 import Pattern._
 
 object ConfigApp {
@@ -13,7 +16,7 @@ object ConfigApp {
 
   }
 
-    //
+    // AbstractFactory
 
   def getAbstractFactoryClass: AbstractFactory ={
 
@@ -24,6 +27,21 @@ object ConfigApp {
 
   }
 
+
+  // Property
+
+  def getPropertiesClass: Properties  = {
+
+    val file = new File ("src/main/scala/Config/DataConfig.properties").getPath()
+
+    val properties =  new Properties()
+
+    import java.io.FileReader
+    properties.load(new FileReader(file))
+
+    properties
+
+  }
 
 
 

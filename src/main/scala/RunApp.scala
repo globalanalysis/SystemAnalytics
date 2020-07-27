@@ -7,8 +7,7 @@ import akka.actor.ActorSystem
   def main(args: Array[String]): Unit = {
 
 
-    CollectionTestClass.exucuteAllTest
-
+  CollectionTestClass.exucuteAllTest
 
 
 
