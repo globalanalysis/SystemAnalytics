@@ -1,6 +1,6 @@
 package Config
 
-import Pattern.Singleton
+import Pattern._
 
 object ConfigApp {
 
@@ -12,6 +12,18 @@ object ConfigApp {
 
 
   }
+
+    //
+
+  def getAbstractFactoryClass: AbstractFactory ={
+
+    var t = new AbstractFactory
+
+    t
+
+
+  }
+
 
 
 

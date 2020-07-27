@@ -1,6 +1,7 @@
-package TestApp
+package TestApp.PackageTestClass
 
 import Config.ConfigApp
+import TestApp.Plasma
 
 class SingeltonTestClass extends Plasma {
 
