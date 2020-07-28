@@ -4,8 +4,9 @@ package Config
 import java.io.File
 import java.util.Properties
 
-import Pattern.{PattarnClass, _}
-import _root_.Pattern.PattarnClass.{AbstractFactory, Builder}
+import LooggerPlatform.RunLogger
+import SubjectModel.{PatternClass, _}
+import _root_.SubjectModel.PatternClass.{AbstractFactory, Builder}
 
 
 /**
@@ -29,9 +30,9 @@ object ConfigApp {
     *
     */
 
-  def getSingletonClass: PattarnClass.Singleton ={
+  def getSingletonClass: PatternClass.Singleton ={
 
-    var t = new PattarnClass.Singleton
+    var t = new PatternClass.Singleton
 
     t
 
@@ -73,6 +74,17 @@ object ConfigApp {
   }
 
 
+  /**
+    * @return Logger
+    * @todo Возвращает встроенный Logger
+    */
+
+  def getRunLogger: RunLogger  = {
+
+    val getLogger = new RunLogger
+    getLogger
+
+  }
 
 
 

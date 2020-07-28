@@ -6,9 +6,9 @@
   **/
 
 
-package Pattern.PattarnClass
+package SubjectModel.PatternClass
 
-import Pattern.Pattern
+import SubjectModel.Pattern
 
 class Builder extends Pattern {
 

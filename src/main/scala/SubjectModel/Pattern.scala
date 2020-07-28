@@ -1,11 +1,11 @@
 
 
 
-package Pattern
+package SubjectModel
 
-/** == Паттерн Pattern==
+/** == Паттерн SubjectModel==
   * @author Dynamic
-  * @example  class Singelton extends Pattern
+  * @example  class Singelton extends SubjectModel
   * @constructor отсуствует
   * @todo Основной трейт для создания класса шаблонов
   **/

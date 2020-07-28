@@ -1,4 +1,4 @@
-package AnalysisParameters
+package SubjectModel.AnalysisParameters
 
 class Parameters {
   // Определяем тип приложения веб или сервис

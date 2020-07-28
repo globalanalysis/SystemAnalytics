@@ -1,6 +1,6 @@
-package Pattern.PattarnClass
+package SubjectModel.PatternClass
 
-import Pattern.Pattern
+import SubjectModel.Pattern
 
 /** == Шаблон AbstractFactory==
  *
