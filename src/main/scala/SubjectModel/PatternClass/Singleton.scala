@@ -10,8 +10,7 @@ import SubjectModel.Pattern
   * @author Dynamic
   * @return name, category, description
  *
-  * @constructor отсуствует
-  **/
+   **/
 
 class Singleton extends Pattern {
 

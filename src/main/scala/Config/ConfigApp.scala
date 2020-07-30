@@ -55,7 +55,7 @@ object ConfigApp {
 
   /**
     * @return Property
-    * @todo Возвращает объект для чтения данных с конфигурационного файла DataConfig
+    * Возвращает объект для чтения данных с конфигурационного файла DataConfig
     */
 
   def getPropertiesClass: Properties  = {
@@ -74,7 +74,7 @@ object ConfigApp {
 
   /**
     * @return Logger
-    * @todo Возвращает встроенный Logger
+    * Возвращает встроенный Logger
     */
 
   def getRunLogger: RunLogger  = {
