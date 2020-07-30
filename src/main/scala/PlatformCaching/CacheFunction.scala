@@ -1,0 +1,5 @@
+package PlatformCaching
+
+trait CacheFunction {
+
+}
