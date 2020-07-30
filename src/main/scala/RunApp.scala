@@ -1,5 +1,5 @@
 import Config.ConfigApp
-import LooggerPlatform.RunLogger
+import LoggerPlatform.RunLogger
 import TestApp.CollectionTestClass
 
 object RunApp {
@@ -9,7 +9,7 @@ object RunApp {
 
 
   CollectionTestClass.exucuteAllTest()
-  ConfigApp.getRunLogger.infoLoogger("Cтарт тестов")
+  ConfigApp.getRunLogger.infoLogger("Cтарт тестов")
 
 
 

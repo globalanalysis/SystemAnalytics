@@ -4,18 +4,17 @@ package Config
 import java.io.File
 import java.util.Properties
 
-import LooggerPlatform.RunLogger
+import LoggerPlatform.RunLogger
 import SubjectModel.{PatternClass, _}
 import _root_.SubjectModel.PatternClass.{AbstractFactory, Builder}
 
 
 /**
-  * =bject Config=
+  * =Object ConfigApp=
   *
   * @author Dynamic
   * @version 1.0
-  * @constructor не предусмотрен
-  * Является фабрикой для всех объектов в приложении
+  * Является фабрикой для всех объектов в приложении.
   * Конфигурирует и внедряет зависимости всех классов
   */
 
@@ -25,7 +24,6 @@ object ConfigApp {
   /** =Singleton=
     * @author Dynamic
     * @version 1.0
-    * @constructor не предусмотрен
     * @return SingletonClass
     *
     */
