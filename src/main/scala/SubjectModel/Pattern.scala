@@ -3,13 +3,13 @@
 
 package SubjectModel
 
-/** == Паттерн SubjectModel==
+/** == trait Pattern==
   * @author Dynamic
-  * @example  class Singelton extends SubjectModel
-  * Основной трейт для создания класса шаблонов
+  * Трейт определяющий содержание всех шаблонов: имя, категория, описание
+  * 
   **/
 
-  // Трейт определяющий содержание всех шаблонов: имя, категория, описание
+
 
 trait Pattern {
 
