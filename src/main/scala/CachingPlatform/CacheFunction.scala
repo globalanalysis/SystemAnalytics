@@ -50,9 +50,9 @@ val cacheCollection: ArrayBuffer[T] = new scala.collection.mutable.ArrayBuffer[T
   /**
     * @author Dynamic
     * Автоматическое обнуление кеша
-    * @param tameCache устанавливает время в минутах
+    * @param timeCache устанавливает время в минутах
     **/
-  def cacheResetAuto(tameCache:Int): Unit = {
+  def cacheResetAuto(timeCache:Int): Unit = {
 
 
 
