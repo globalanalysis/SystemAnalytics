@@ -32,6 +32,4 @@
 Диаграмма основных компонентов: 
 https://github.com/globalanalysis/SystemAnalytics/blob/master/requirementDiagram.jpg
 
-<iframe frameborder="0" style="width:100%;height:283px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1#G1IisyIGxpKnHER5cWVfFVxDD54AOpGQeU"></iframe>
-
 
