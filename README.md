@@ -29,3 +29,7 @@
 Дополнительно: Будет реализована система управления требованиями.
 
 
+Диаграмма основных компонентов: 
+https://github.com/globalanalysis/SystemAnalytics/blob/master/requirementDiagram.jpg
+
+
