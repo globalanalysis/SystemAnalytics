@@ -11,57 +11,50 @@ import scala.collection.mutable.ArrayBuffer
   **/
 trait CacheFunction [T] {
 
-val cacheCollection: ArrayBuffer[T] = new scala.collection.mutable.ArrayBuffer[T]
+  def cacheCollection[T](): ArrayBuffer[T] = new scala.collection.mutable.ArrayBuffer[T]
 
   /**
     * @author Dynamic
-    * Метод поиска элемента в коллекции
+    *         Метод проверяет есть ли элемент в коллекции
     **/
-  def findItemCache(add:T): T = {
+  def findItemCache(add: T): Boolean = {
+
+      cacheCollection.contains(add)
+
+     }
 
 
-   add
+    /**
+      * @author Dynamic
+      *         Метод добавдяет элемент в коллецию кеша
+      **/
+    def addItemToCache[T](add: T): Unit = {
+      cacheCollection.+=(add)
+
+
+    }
+
+
+    /**
+      * @author Dynamic
+      *         Метод принудительного обнуления кеша
+      **/
+    def cacheReset(): Unit = {
+
+      cacheCollection.clear()
+    }
+
+
+  /**
+    * @author Dynamic
+    * Получить элемент с коллекции кеша
+    **/
+  def cacheElmReceive(res:T): T = {
+
+    cacheCollection.foreach(x->{x==res x})
   }
 
 
 
-  /**
-    * @author Dynamic
-    * Метод добавдяет элемент в коллецию кеша
-    **/
-  def addItemToCache(add:T): Unit = {
-
-
-
   }
 
-
-
-  /**
-    * @author Dynamic
-    * Метод принудительного обнуления кеша
-    **/
- def cacheReset: Unit = {
-
-
-
-  }
-
-  /**
-    * @author Dynamic
-    * Автоматическое обнуление кеша
-    * @param timeCache устанавливает время в минутах
-    **/
-  def cacheResetAuto(timeCache:Int): Unit = {
-
-
-
-  }
-
-
-
-
-
-
-
-}
