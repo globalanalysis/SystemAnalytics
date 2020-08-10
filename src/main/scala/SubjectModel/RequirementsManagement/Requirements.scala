@@ -8,12 +8,14 @@ package SubjectModel.RequirementsManagement
 *   @param requirementDescription описание требования
   * @param requirementId  индификатор требования
   * @param timeOfClaim дата внесения требования
+  * @param staterequiremen состояние требования
 **/
  class Requirements (
 
                           var requirementId: Long,
                           var requirementDescription: String,
-                          var timeOfClaim: String
+                          var timeOfClaim: String,
+                          var staterequiremen: String
 
                         )
 
