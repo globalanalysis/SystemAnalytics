@@ -11,48 +11,35 @@ import scala.collection.mutable.ArrayBuffer
   **/
 trait CacheFunction [T] {
 
-  def cacheCollection[T](): ArrayBuffer[T] = new scala.collection.mutable.ArrayBuffer[T]
+  def cacheCollection[T](): ArrayBuffer[T]
 
   /**
     * @author Dynamic
     *         Метод проверяет есть ли элемент в коллекции
     **/
-  def findItemCache(add: T): Boolean = {
-
-      cacheCollection.contains(add)
-
-     }
+  def findItemCache(add: T): Boolean
 
 
     /**
       * @author Dynamic
       *         Метод добавдяет элемент в коллецию кеша
       **/
-    def addItemToCache[T](add: T): Unit = {
-      cacheCollection.+=(add)
-
-
-    }
+    def addItemToCache(add: T): Unit
 
 
     /**
       * @author Dynamic
       *         Метод принудительного обнуления кеша
       **/
-    def cacheReset(): Unit = {
-
-      cacheCollection.clear()
-    }
-
+    def cacheReset(): Unit
 
   /**
     * @author Dynamic
     * Получить элемент с коллекции кеша
     **/
-  def cacheElmReceive(res:T): T = {
+  def cacheElmReceive(res:T): Unit
 
-    cacheCollection.foreach(x->{x==res x})
-  }
+
 
 
 
