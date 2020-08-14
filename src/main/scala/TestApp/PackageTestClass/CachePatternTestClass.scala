@@ -7,12 +7,31 @@ import TestApp.Plasma
 
 class CachePatternTestClass extends Plasma {
 
-  override def runTest(): Unit = {
-    ConfigApp.getRunLogger.infoLogger("Cтарт тестов для класса кеша")
-    val f = new Facade
-    val d = new Decorator
 
-    val c = new ClassCache()
+  ConfigApp.getRunLogger.infoLogger("Cтарт тестов для класса кеша")
+  val f = new Facade
+  val d = new Decorator
+
+  val c = new ClassCache()
+
+  override def runTest(): Unit = {
+
+    addElm
+
+    findElm
+
+    getelm
+
+
+
+
+
+  }
+
+
+
+ private def addElm= {
+
 
     ConfigApp.getRunLogger.infoLogger("Добавляем 2 типа шаблона")
 
@@ -20,14 +39,26 @@ class CachePatternTestClass extends Plasma {
     c.addItemToCache(d)
 
 
-    c.findItemCache(d)
-    c.findItemCache(f)
+
+  }
 
 
-    ConfigApp.getRunLogger.infoLogger("Находим  их в колекции  " + c.findItemCache(d)+ "  " + c.findItemCache(f))
+private def findElm = {
+
+  c.findItemCache(d)
+  c.findItemCache(f)
+
+
+  ConfigApp.getRunLogger.infoLogger("Находим  их в колекции  " + c.findItemCache(d)+ "  " + c.findItemCache(f))
 
 
 
+
+
+}
+
+
+  private def getelm = {
 
     c.cacheElmReceive(d)
     c.cacheElmReceive(f)
@@ -35,7 +66,14 @@ class CachePatternTestClass extends Plasma {
 
 
 
+
+
   }
+
+
+
+
+
 
 }
 

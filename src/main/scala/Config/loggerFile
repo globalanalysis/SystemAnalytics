@@ -47,3 +47,11 @@ info: Добавляем 2 типа шаблона
 info: Находим  их в колекции  true  true
 2020-08-14T11:17:29.905+03:00
 info: Извлекаем их из колекцииSubjectModel.PatternClass.Decorator@1a84f40f  SubjectModel.PatternClass.Facade@23282c25
+2020-08-14T11:22:14.438+03:00
+info: Cтарт тестов для класса кеша
+2020-08-14T11:22:14.621+03:00
+info: Добавляем 2 типа шаблона
+2020-08-14T11:22:14.623+03:00
+info: Находим  их в колекции  true  true
+2020-08-14T11:22:14.625+03:00
+info: Извлекаем их из колекцииSubjectModel.PatternClass.Decorator@1a84f40f  SubjectModel.PatternClass.Facade@23282c25
