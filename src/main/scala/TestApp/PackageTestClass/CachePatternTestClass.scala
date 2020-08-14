@@ -35,8 +35,8 @@ class CachePatternTestClass extends Plasma {
 
     ConfigApp.getRunLogger.infoLogger("Добавляем 2 типа шаблона")
 
-    c.addItemToCache(f)
-    c.addItemToCache(d)
+    //c.addItemToCache(f)
+   // c.addItemToCache(d)
 
 
 
@@ -46,7 +46,7 @@ class CachePatternTestClass extends Plasma {
 private def findElm = {
 
   c.findItemCache(d)
-  c.findItemCache(f)
+   c.findItemCache(f)
 
 
   ConfigApp.getRunLogger.infoLogger("Находим  их в колекции  " + c.findItemCache(d)+ "  " + c.findItemCache(f))

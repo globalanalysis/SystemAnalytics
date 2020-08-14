@@ -39,7 +39,7 @@ import scala.collection.mutable.ArrayBuffer
     * @author Dynamic
     * Получить элемент с коллекции кеша
     **/
-  def cacheElmReceive( res:T): T;
+  def cacheElmReceive( res:T): Option[T];
 
 
 
