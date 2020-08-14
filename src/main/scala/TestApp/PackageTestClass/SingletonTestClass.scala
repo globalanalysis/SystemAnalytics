@@ -3,7 +3,7 @@ package TestApp.PackageTestClass
 import Config.ConfigApp
 import TestApp.Plasma
 
-class SingeltonTestClass extends Plasma {
+class SingletonTestClass extends Plasma {
 
   override def runTest(): Unit = {
 
@@ -16,9 +16,9 @@ class SingeltonTestClass extends Plasma {
   }
 }
 
-object SingeltonTestClass {
+object SingletonTestClass {
 
-  def apply(): SingeltonTestClass = new SingeltonTestClass()
+  def apply(): SingletonTestClass = new SingletonTestClass()
   
   
   

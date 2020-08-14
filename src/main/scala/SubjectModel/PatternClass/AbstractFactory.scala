@@ -1,7 +1,5 @@
 package SubjectModel.PatternClass
 
-import SubjectModel.Pattern
-
 /** == Шаблон AbstractFactory==
  *
   * @author Dynamic

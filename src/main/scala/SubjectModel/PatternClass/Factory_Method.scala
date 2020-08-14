@@ -8,8 +8,6 @@
 
 package SubjectModel.PatternClass
 
-import SubjectModel.Pattern
-
 class Factory_Method extends Pattern {
 
   override  var name: String = " Factory Method"

@@ -1,5 +1,7 @@
 package CachingPlatform
 
+import SubjectModel.PatternClass.Pattern
+
 import scala.collection.mutable.ArrayBuffer
 
 
@@ -9,9 +11,9 @@ import scala.collection.mutable.ArrayBuffer
   * Встроеная система кеширования платформы
   *
   **/
-trait CacheFunction [T] {
+ abstract  trait CacheFunction [T] {
 
-  def cacheCollection[T](): ArrayBuffer[T]
+  val cacheCollection: ArrayBuffer[T]
 
   /**
     * @author Dynamic
@@ -37,7 +39,7 @@ trait CacheFunction [T] {
     * @author Dynamic
     * Получить элемент с коллекции кеша
     **/
-  def cacheElmReceive(res:T): Unit
+  def cacheElmReceive( res:T): T;
 
 
 

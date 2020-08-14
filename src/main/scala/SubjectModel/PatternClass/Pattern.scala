@@ -1,7 +1,7 @@
 
 
 
-package SubjectModel
+package SubjectModel.PatternClass
 
 /** == trait Pattern==
   * @author Dynamic

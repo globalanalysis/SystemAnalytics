@@ -2,8 +2,6 @@
 
 package SubjectModel.PatternClass
 
-import SubjectModel.Pattern
-
 
 /** == Шаблон Visitor==
  *

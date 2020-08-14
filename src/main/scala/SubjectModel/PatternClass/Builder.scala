@@ -8,8 +8,6 @@
 
 package SubjectModel.PatternClass
 
-import SubjectModel.Pattern
-
 class Builder extends Pattern {
 
   override  var name: String = "Builder"

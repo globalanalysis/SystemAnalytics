@@ -2,10 +2,9 @@
 
 package SubjectModel.PatternClass
 
-import SubjectModel.Pattern
-
 
 /** == Шаблон Strategy==
+ *
   * @author Dynamic
   * @return name, category, description
   *

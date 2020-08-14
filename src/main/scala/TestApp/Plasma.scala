@@ -6,7 +6,7 @@ package TestApp
   * Основной трейт реализуемый всеми классами тестов  *
   *
   **/
-trait Plasma {
+  trait Plasma {
 
 
 

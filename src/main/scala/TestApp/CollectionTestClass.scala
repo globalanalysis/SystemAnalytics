@@ -1,6 +1,6 @@
 package TestApp
 
-import TestApp.PackageTestClass.{AbstractFactoryTestClass, SingeltonTestClass}
+import TestApp.PackageTestClass.{AbstractFactoryTestClass, CachePatternTestClass, SingletonTestClass}
 
 import scala.collection.mutable.ArrayBuffer
 
@@ -12,10 +12,11 @@ object CollectionTestClass {
 
   var collectonTest: ArrayBuffer[Plasma] = new ArrayBuffer[Plasma]
 
-  collectonTest.+=(SingeltonTestClass())
+  collectonTest.+=(SingletonTestClass())
   collectonTest.+=(AbstractFactoryTestClass())
+  collectonTest.+=(CachePatternTestClass())
 
-  def exucuteAllTest() : Unit =  collectonTest.foreach(x => println(x.runTest()))
+  def executeAllTest() : Unit =  collectonTest.foreach(x => println(x.runTest()))
 
 
 }

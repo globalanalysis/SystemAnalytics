@@ -3,8 +3,6 @@
 
 package SubjectModel.PatternClass
 
-import SubjectModel.Pattern
-
 /** ==Шаблон Memento==
  *
   * @author Dynamic
