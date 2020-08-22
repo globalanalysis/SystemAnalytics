@@ -15,8 +15,8 @@ class Parameters {
     *
     **/
 
-  var wedapp: String=_
-  var backservice: String=_
+  var webapps: Boolean =_
+  var backspace: Boolean =_
 
 
   /**
@@ -49,7 +49,7 @@ class Parameters {
     *
     **/
 
-  var typeAdmin: String=_
+  //var typeAdmin: String=_
 
 
 
@@ -59,7 +59,7 @@ class Parameters {
     *
     **/
 
-  var typeAPI: String=_
+  var typeAPI: Boolean =_
 
 
   /**
@@ -68,7 +68,7 @@ class Parameters {
     *
     **/
 
-  var typeCache: String=_
+  var typeCache: Boolean =_
 
 
   /**
@@ -77,7 +77,7 @@ class Parameters {
     *
     **/
 
-  var typeReserve: String=_
+  var typeReserve: Boolean =_
 
 
   /**
@@ -86,16 +86,16 @@ class Parameters {
     *
     **/
 
-  var typeDiagnostics: String=_
+  var typeDiagnostics: Boolean=_
 
 
   /**
     * @author Dynamic
-    * Определяем необходимость внешних платформ или систем
+    * Определяем необходимость интеграции
     *
     **/
 
-  var typeExternalSystems: String=_
+  var typeExternalSystems: Boolean =_
 
 
   /**
@@ -104,7 +104,7 @@ class Parameters {
     *
     **/
 
-  var typeFrontEnd: String=_
+  var typeFrontEnd: Boolean =_
 
 
 

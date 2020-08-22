@@ -7,22 +7,21 @@ import org.joda.time.DateTime;
 import java.io.*;
 
 
-/** ==RunLogger==
+/**
+ * ==RunLogger==
  *
  * @author Dynamic
- * @version 1.0
- * Встроеный логгер платформы
- **/
-
+ * @version 1.0  Встроеный логгер платформы
+ */
 public class RunLogger {
 
     /**
-     * @author Dynamic
-     * @version 1.0
-     * Записывает info в журнал
+     * Info logger.
      *
+     * @param s the s
+     * @author Dynamic
+     * Записывает info в журнал
      */
-
     public void infoLogger(String s){
       String p = "info: ";
 
@@ -31,12 +30,12 @@ public class RunLogger {
     }
 
     /**
-     * @author Dynamic
-     * @version 1.0
-     * Записывает error в журнал
+     * Error logger.
      *
+     * @param s the s
+     * @author Dynamic
+     * Записывает error в журнал
      */
-
     public void errorLogger(String s) {
         String p = "error: ";
         printFileLogger(s,p);
@@ -45,7 +44,7 @@ public class RunLogger {
 
     /**
      * @author Dynamic
-     * @version 1.0
+     *
      * Основной метод работы с журналом
      *
      */
