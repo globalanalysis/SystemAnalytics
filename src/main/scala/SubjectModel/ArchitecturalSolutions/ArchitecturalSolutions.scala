@@ -1,6 +1,6 @@
 package SubjectModel.ArchitecturalSolutions
 
-abstract class ApplicationClass {
+ trait ArchitecturalSolutions {
 
   val serviceClass: String
   val architecturalSolutions: String
