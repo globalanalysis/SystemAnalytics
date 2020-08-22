@@ -23,7 +23,7 @@ public class RunLogger {
      *
      */
 
-    public void infoLogger(String s) {
+    public void infoLogger(String s){
       String p = "info: ";
 
         printFileLogger(s,p);

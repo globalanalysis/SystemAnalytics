@@ -30,11 +30,10 @@ import scala.collection.mutable.ArrayBuffer
     * @author Dynamic
     *         Получить элемент с коллекции кеша
     **/
-  override def cacheElmReceive( res: Pattern):Option [Pattern]= {
+  override def cacheElmReceive( res: Pattern):Option [Pattern]=
    cacheCollection.find(_==res)
 
 
-   }
 
 
 
