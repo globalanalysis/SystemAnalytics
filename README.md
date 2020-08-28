@@ -33,6 +33,7 @@
 
 Диаграмма основных компонентов: 
 https://github.com/globalanalysis/SystemAnalytics/blob/master/requirementDiagram.jpg
+
 Основная архитектура приложения по слоям: https://raw.githubusercontent.com/globalanalysis/SystemAnalytics/master/Screenshot_1.bmp
 
 
